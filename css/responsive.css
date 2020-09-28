@@ -1,0 +1,301 @@
+@media (min-width: 1200px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #home-section .home-content h1 {
+    font-size: 72px;
+  }
+
+  #home-section .home-content p {
+    font-size: 22px;
+  }
+
+  .home-content .home-btn {
+    width: 270px;
+    height: 60px;
+    line-height: 60px;
+  }
+
+  .sub-text {
+    width: 111px;
+  }
+
+  .sub-btn {
+    width: 85px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #home-section .home-content h1 {
+    font-size: 65px;
+  }
+
+  #home-section .home-content p {
+    font-size: 22px;
+    padding: 0 15px;
+  }
+
+  #home-section .home-content p br {
+    display: none;
+  }
+
+  .home-content .home-btn {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+  }
+
+  .sec-pad-bottom {
+    margin-bottom: 100px;
+  }
+
+  .sec-pad-top {
+    margin-top: 100px;
+  }
+
+  .section-title h2 {
+    font-size: 38px;
+    margin-bottom: 35px;
+  }
+
+  .section-title p {
+    font-size: 18px;
+  }
+
+  .section-title {
+    margin-bottom: 70px;
+  }
+
+  .single-service img {
+    max-width: 42px;
+    max-height: 42px;
+  }
+
+  .service-content {
+    margin-left: 15px;
+  }
+
+  .service-content h3 {
+    font-size: 24px;
+  }
+
+  .work {
+    padding: 100px 0;
+  }
+
+  .cta .section-title {
+    margin-bottom: 0;
+  }
+
+  footer .col-25 {
+    width: 50%;
+  }
+
+  .foot-desc,
+  .foot-work {
+    margin-bottom: 30px;
+  }
+
+  .sub-text {
+    width: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .col-20,
+  .col-25,
+  .col-33,
+  .col-50,
+  .col-80 {
+    width: 100%;
+  }
+
+  .top-bar {
+    height: auto;
+    line-height: unset;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  .contact-info {
+    margin-bottom: 15px;
+  }
+
+  .contact-info span {
+    margin-right: 15px;
+    margin-left: 5px;
+  }
+
+  .contact-info span:last-child {
+    margin-right: 0;
+  }
+
+  .social-icon {
+    float: none;
+  }
+
+  .social-icon i {
+    margin: 0 8px;
+  }
+
+  .main-menu li {
+    margin-right: 3px;
+    font-size: 12px;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .search i {
+    font-size: 12px;
+  }
+
+  #home-section {
+    height: 600px;
+  }
+
+  #home-section .home-content h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+  }
+
+  .home-content p {
+    padding: 0 15px;
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+
+  .home-content p br {
+    display: none;
+  }
+
+  .home-content .home-btn {
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+  }
+
+  .sec-pad-bottom {
+    margin-bottom: 100px;
+  }
+
+  .sec-pad-top {
+    margin-top: 100px;
+  }
+
+  .section-title h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .section-title p {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+
+  .section-title p br {
+    display: none;
+  }
+
+  .single-service img {
+    max-width: 34px;
+    max-height: 46px;
+    margin-top: 5px;
+  }
+
+  .single-service {
+    margin-top: 20px;
+  }
+
+  .service-content h3 {
+    margin-bottom: 15px;
+  }
+
+  .work {
+    padding: 100px 0;
+  }
+
+
+  .work .col-25 {
+    width: 50%;
+  }
+
+  .work-details {
+    margin-top: 20px;
+  }
+
+  .mb-80 {
+    margin-bottom: 30px;
+  }
+
+  .single-works {
+    padding-bottom: 15px;
+  }
+
+  .footer .col-25 {
+    text-align: center;
+  }
+
+  .work-details h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .footer .col-25 {
+    margin-top: 30px;
+  }
+
+  .foot-work .col-50 {
+    width: 50%;
+  }
+
+  .sub-form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright .copyright-text {
+    text-align: center;
+  }
+
+  .footer-menu {
+    margin-top: 10px;
+    float: none;
+    text-align: center;
+  }
+
+  .to-top a {
+    right: 5px;
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .footer-menu li {
+    margin: 0 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-menu li {
+    margin-right: 15px;
+    font-size: 16px;
+  }
+
+  .search i {
+    font-size: 20px;
+  }
+
+  .work .col-50,
+  .work .col-25 {
+    width: 50%;
+  }
+
+  .foot-work .col-50 {
+    width: 25%;
+  }
+}
